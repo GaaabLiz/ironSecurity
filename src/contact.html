@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+
+  <head>
+
+    <!-- Titolo della pagina -->
+    <title>Iron Security | CONTATTI E FONTI</title>
+
+    <!-- Informazioni <meta> sito -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Un progetto informativo sulla sicurezza informatica.">
+    <meta name="keywords" content="Sicurezza, Informatica, Cyber, Security, IronSecurity">
+    <meta name="author" content="Gabriele Lizzos, Alessandro Fatone">
+    <meta name="robots" content="index, follow">
+
+    <!-- Collegamento font-esterni -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+    <!-- Collegamento css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+
+    <!-- Favicon per tutti i dispositivi -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- script pagina -->
+
+  </head>
+
+  <body>
+
+    <!-- ◄█ NAVBAR █► - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <!-- Pulsante di navigazione che attiva la navbar -->
+    <div class="navigation u-padding-right-small">
+
+      <!-- checkbox invisible per on/off della navbar -->
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+      <!-- pulsante che attiva la checkbox per on/off navbar -->
+      <label for="navi-toggle" class="navigation__button">
+
+        <!-- icona barrette del pulsante -->
+        <span class="navigation__icon">&nbsp;</span>
+
+      </label>
+
+      <!-- cotenitore navbar che si espande -->
+      <div class="navigation__background">&nbsp;</div>
+
+      <!-- menù di navigazione del sito -->
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+
+          <!-- Pagina: home -->
+          <li class="navigation__item">
+            <a href="index.html" class="navigation__link ">
+              <i class="fas fa-home u-margin-right-medium"></i>
+              <span class="u-padding-right-big">Home</span>
+            </a>
+          </li>
+
+          <!-- Pagina: Sicurezza -->
+          <li class="navigation__item">
+            <a href="security.html" class="navigation__link">
+              <i class="far fa-file u-margin-right-medium"></i>
+              <span>Sicurezza</span>
+            </a>
+          </li>
+
+          <!-- Pagina: Controlli -->
+          <li class="navigation__item">
+            <a href="controls.html" class="navigation__link">
+              <i class="fas fa-check-double u-margin-right-medium"></i>
+              <span>Controlli</span>
+            </a>
+          </li>
+
+          <!-- Pagina: Statistiche -->
+          <li class="navigation__item">
+            <a href="statistic.html" class="navigation__link">
+              <i class="fas fa-signal u-margin-right-medium"></i>
+              <span>Statistiche</span>
+            </a>
+          </li>
+
+          <!-- Pagina: Contatti -->
+          <li class="navigation__item">
+            <a href="contact.html" class="navigation__link">
+              <i class="fas fa-address-book u-margin-right-medium"></i>
+              <span>Contatti</span>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -->
+
+
+
+    <!-- ◄█ HEADER █► - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <header class="header__sicurezza">
+
+      <!-- video in background -->
+      <div class="header__sicurezza__video">
+        <video class="bg-video-header" autoplay loop muted>
+          <source src="../video/earth2.mp4" type="video/mp4">
+          <source src="../video/earth2.webm" type="video/webm">
+          Your browser is not supported!
+        </video>
+      </div>
+
+      <!-- radiant box -->
+      <div class="header__sicurezza__radiant"></div>
+
+      <!-- logo del sito -->
+      <div class="header__sicurezza__logo">
+        <img src="images/logo__header__white.png" alt="Logo del sito (Header)" class="logo__header">
+      </div>
+
+      <!-- area testo H1 title/subtitle -->
+      <div class="header__sicurezza__textarea">
+        <h1 class="heading-primary header__sicurezza__textarea__text">
+          <span class="heading-primary__title animated pulse infinite slow">Contatti</span>
+        </h1>
+      </div>
+    </header>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -->
+
+
+
+    <!-- ◄█ CHI SIAMO █► - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <section class="section__compagnia">
+
+      <br><br>
+
+      <!-- Titolo h2 -->
+      <div class="u-center-text">
+        <h2 class="heading-secondary">CHI SIAMO?</h2>
+      </div>
+
+      <!-- Paragrafo -->
+      <p class="paragraph">
+        Iron security è un azienda nata nel 2019 con l'unico scopo di informare e istruire i propri lettori
+        con corsi didattici e specifi sulla sicurezza informatica. Al giorno d'oggi il discorso sicurezza
+        è un argomento molto caldo, non solo negli ambiti più comuni come quello della strada o del lavoro
+        ma anche in un ambiente del tutto diverso e altrettanto pericoloso come quello dei computer.
+        Con l'avvento della tecnologia si sta cercando di lasciare tutto ciò che veniva fatto "su carta" e si
+        sta sostituendo il tutto con dispositivi tecnologici/informatici; come ad esempio i famosissimi PC.
+
+        <br><br>
+
+        Iron security si occupa proprio di questo. Esso cerca di analizzare e comprendere i rischi, i problemi e le difficoltà
+        che possono incombere nella sicurezza di una persona o di un'azienda che utilizza un prodotto informatico.
+      </p>
+
+      <br><br><br><br><br>
+
+    </section>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -->
+
+
+
+    <!-- ◄█ VIENI A TROVARCI █► - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <section class="section__trovaci">
+
+      <!-- Titolo h2 -->
+      <div class="u-center-text">
+        <h2 class="heading-secondary">Vieni a trovarci</h2>
+      </div>
+
+      <!-- Paragrafo -->
+      <p class="paragraph">
+        Ci puoi trovare a Vercelli in Piazza S. Eusebio 5, nello storico Edificio San Giuseppe,
+        a circa 500 metri dalla stazione ferroviaria.
+      </p>
+
+      <iframe style="height: 50rem; width: 100%; border:0"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.9039854182374!2d8.418597016018907!3d45.33056127909959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47864c622d405c8b%3A0x29ed15cd84004aff!2sPiazza+Sant&#39;Eusebio%2C+13100+Vercelli+VC!5e0!3m2!1sit!2sit!4v1563554848830!5m2!1sit!2sit" width="600" height="450" frameborder="0" allowfullscreen></iframe>
+
+      <p class="paragraph"></p>
+
+      <br><br><br><br><br>
+    </section>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -->
+
+
+
+    <!-- ◄█ AUTORI DEL SITO █► - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <section class="section-autori">
+
+      <!-- Titolo h2 -->
+      <div class="u-center-text">
+        <h2 class="heading-secondary">Autori del sito</h2>
+      </div>
+
+      <!-- Sezione autori flex -->
+      <div class="flex-grid u-margin-top-medium">
+
+        <!-- Gabriele Lizzos -->
+        <div class="col">
+          <div class="features-box-authors">
+
+            <div class="features-box-authors__imagebox">
+              <img class="features-box-authors__imagebox__img" src="images/authors/gab.png" alt="Gabriele Lizzos">
+            </div>
+
+            <div class="u-center-text u-margin-top-medium">
+              <h3 class="heading-tertiary">Gabriele Lizzos</h3>
+            </div>
+
+            <p class="paragraph u-center-text">Studente</p>
+
+            <div class="boxCont__group u-margin-top-small u-center-text">
+              <a href="mailto:lizzosgabriele@gmail.com?Subject=IronSecurity" target="_top" class="btn btn-violaAzz u-center-text u-display-inlineblock">Contatta</a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Alessandro Fatone -->
+        <div class="col">
+          <div class="features-box-authors">
+
+            <div class="features-box-authors__imagebox">
+              <img class="features-box-authors__imagebox__img" src="images/authors/ale.png" alt="Alessandro Fatone">
+            </div>
+
+            <div class="u-center-text u-margin-top-medium">
+              <h3 class="heading-tertiary">Alessandro Fatone</h3>
+            </div>
+
+            <p class="paragraph u-center-text">Studente</p>
+
+            <div class="boxCont__group u-margin-top-small u-center-text">
+              <a href="mailto:fatone_alessandro@outlook.com?Subject=IronSecurity" target="_top" class="btn btn-violaAzz u-center-text u-display-inlineblock">Contatta</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <br><br><br><br><br>
+    </section>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -->
+
+
+
+    <!-- ◄█ FONTI DEL SITO █► - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <section class="section-fonti">
+
+      <!-- Titolo h2 -->
+      <div class="u-center-text">
+        <h2 class="heading-secondary">Fonti</h2>
+      </div>
+
+    </section>
+
+  </body>
+
+</html>
